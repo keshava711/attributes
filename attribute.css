@@ -1,0 +1,92 @@
+
+header{
+    position: fixed;
+    background-color: black;
+    padding: 10px;
+    z-index: 1;
+    width: 98%;
+    
+}
+.text1{
+    color: white;
+    display: inline;
+}
+.text2{
+   display: flex;
+   float: right;
+   gap: 25px;
+   
+}
+.side{
+    display: flex;
+}
+.box1{
+    background-color: gray;
+    width:150px;
+    height: 150px;
+}
+.size{
+    text-align: center;
+    padding-top: 50px;  
+}
+.anchor{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: yellowgreen;
+    opacity: 0.7;
+   
+}
+.parent{
+    display: flex;
+    margin:5px 10px 10px 10px;
+}
+.text3{
+    background-image: radial-gradient(red,yellow);
+    width: 75vw;
+    height: 45vh;
+    padding-left: 10px;
+}
+.text4{
+    background-color: yellowgreen;
+    width: 25vw;
+    height: 45vh;
+    padding-left: 15px;
+}
+.box2{
+    background-color: gray;
+    border: 2px solid black;
+    width: 150px;
+    height: 200px;
+}
+.cap{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    margin-top: 75PX;
+    margin-left: 2PX;
+}
+.size2{
+    text-align: center;
+    padding-top: 70px;
+}
+.allsize{
+    display: flex;
+    column-gap: 30px;
+}
+.inp{
+    width: 100%;
+}
+button{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    color: white;
+    justify-content: center;   
+}
